@@ -1,0 +1,960 @@
+Case_ID,Activity_Name,Timestamp,Time_Taken_Minutes,Next_Activity
+P001,Registration,2026-10-01 13:27:00,,Triage
+P001,Triage,2026-10-01 13:30:00,3.0,Doctor Consultation
+P001,Doctor Consultation,2026-10-01 13:35:00,5.0,Discharge
+P001,Discharge,2026-10-01 13:52:00,17.0,
+P002,Registration,2026-10-01 09:11:00,,Triage
+P002,Triage,2026-10-01 09:19:00,8.0,Doctor Consultation
+P002,Doctor Consultation,2026-10-01 09:25:00,6.0,Discharge
+P002,Discharge,2026-10-01 09:52:00,27.0,
+P003,Registration,2026-10-01 13:02:00,,Triage
+P003,Triage,2026-10-01 13:08:00,6.0,X-Ray
+P003,X-Ray,2026-10-01 13:13:00,5.0,Triage
+P003,Triage,2026-10-01 13:29:00,16.0,Doctor Consultation
+P003,Doctor Consultation,2026-10-01 13:43:00,14.0,Discharge
+P003,Discharge,2026-10-01 13:53:00,10.0,
+P004,Registration,2026-10-01 09:41:00,,Triage
+P004,Triage,2026-10-01 09:49:00,8.0,Doctor Consultation
+P004,Doctor Consultation,2026-10-01 10:04:00,15.0,Discharge
+P004,Discharge,2026-10-01 10:27:00,23.0,
+P005,Registration,2026-10-01 11:49:00,,Triage
+P005,Triage,2026-10-01 11:56:00,7.0,Doctor Consultation
+P005,Doctor Consultation,2026-10-01 12:05:00,9.0,Discharge
+P005,Discharge,2026-10-01 12:15:00,10.0,
+P006,Registration,2026-10-01 14:52:00,,Triage
+P006,Triage,2026-10-01 14:56:00,4.0,X-Ray
+P006,X-Ray,2026-10-01 15:07:00,11.0,Triage
+P006,Triage,2026-10-01 15:21:00,14.0,Doctor Consultation
+P006,Doctor Consultation,2026-10-01 15:31:00,10.0,Discharge
+P006,Discharge,2026-10-01 15:44:00,13.0,
+P007,Registration,2026-10-01 11:14:00,,Triage
+P007,Triage,2026-10-01 11:17:00,3.0,Doctor Consultation
+P007,Doctor Consultation,2026-10-01 11:27:00,10.0,Discharge
+P007,Discharge,2026-10-01 11:56:00,29.0,
+P008,Registration,2026-10-01 14:53:00,,Triage
+P008,Triage,2026-10-01 14:56:00,3.0,X-Ray
+P008,X-Ray,2026-10-01 15:08:00,12.0,Triage
+P008,Triage,2026-10-01 15:30:00,22.0,Doctor Consultation
+P008,Doctor Consultation,2026-10-01 15:39:00,9.0,Discharge
+P008,Discharge,2026-10-01 16:09:00,30.0,
+P009,Registration,2026-10-01 15:33:00,,Triage
+P009,Triage,2026-10-01 15:38:00,5.0,X-Ray
+P009,X-Ray,2026-10-01 15:52:00,14.0,Triage
+P009,Triage,2026-10-01 16:04:00,12.0,Doctor Consultation
+P009,Doctor Consultation,2026-10-01 16:12:00,8.0,Discharge
+P009,Discharge,2026-10-01 16:31:00,19.0,
+P010,Registration,2026-10-01 15:17:00,,Triage
+P010,Triage,2026-10-01 15:21:00,4.0,X-Ray
+P010,X-Ray,2026-10-01 15:27:00,6.0,Doctor Consultation
+P010,Doctor Consultation,2026-10-01 15:51:00,24.0,Discharge
+P010,Discharge,2026-10-01 16:12:00,21.0,
+P011,Registration,2026-10-01 11:09:00,,Triage
+P011,Triage,2026-10-01 11:14:00,5.0,Doctor Consultation
+P011,Doctor Consultation,2026-10-01 11:22:00,8.0,Discharge
+P011,Discharge,2026-10-01 11:52:00,30.0,
+P012,Registration,2026-10-01 13:11:00,,Triage
+P012,Triage,2026-10-01 13:19:00,8.0,X-Ray
+P012,X-Ray,2026-10-01 13:26:00,7.0,Triage
+P012,Triage,2026-10-01 13:43:00,17.0,Doctor Consultation
+P012,Doctor Consultation,2026-10-01 13:54:00,11.0,Discharge
+P012,Discharge,2026-10-01 14:12:00,18.0,
+P013,Registration,2026-10-01 13:52:00,,Triage
+P013,Triage,2026-10-01 13:59:00,7.0,Doctor Consultation
+P013,Doctor Consultation,2026-10-01 14:07:00,8.0,Discharge
+P013,Discharge,2026-10-01 14:18:00,11.0,
+P014,Registration,2026-10-01 15:00:00,,Triage
+P014,Triage,2026-10-01 15:03:00,3.0,X-Ray
+P014,X-Ray,2026-10-01 15:13:00,10.0,Triage
+P014,Triage,2026-10-01 15:25:00,12.0,Doctor Consultation
+P014,Doctor Consultation,2026-10-01 15:39:00,14.0,Discharge
+P014,Discharge,2026-10-01 15:59:00,20.0,
+P015,Registration,2026-10-01 13:35:00,,Triage
+P015,Triage,2026-10-01 13:41:00,6.0,Doctor Consultation
+P015,Doctor Consultation,2026-10-01 13:52:00,11.0,Discharge
+P015,Discharge,2026-10-01 14:22:00,30.0,
+P016,Registration,2026-10-01 09:13:00,,Triage
+P016,Triage,2026-10-01 09:18:00,5.0,X-Ray
+P016,X-Ray,2026-10-01 09:25:00,7.0,Doctor Consultation
+P016,Doctor Consultation,2026-10-01 09:43:00,18.0,Discharge
+P016,Discharge,2026-10-01 10:06:00,23.0,
+P017,Registration,2026-10-01 11:24:00,,Triage
+P017,Triage,2026-10-01 11:29:00,5.0,Doctor Consultation
+P017,Doctor Consultation,2026-10-01 11:37:00,8.0,Discharge
+P017,Discharge,2026-10-01 11:51:00,14.0,
+P018,Registration,2026-10-01 12:12:00,,Triage
+P018,Triage,2026-10-01 12:15:00,3.0,Doctor Consultation
+P018,Doctor Consultation,2026-10-01 12:20:00,5.0,Discharge
+P018,Discharge,2026-10-01 12:34:00,14.0,
+P019,Registration,2026-10-01 09:21:00,,Triage
+P019,Triage,2026-10-01 09:29:00,8.0,X-Ray
+P019,X-Ray,2026-10-01 09:40:00,11.0,Triage
+P019,Triage,2026-10-01 10:02:00,22.0,Doctor Consultation
+P019,Doctor Consultation,2026-10-01 10:14:00,12.0,Discharge
+P019,Discharge,2026-10-01 10:40:00,26.0,
+P020,Registration,2026-10-01 12:43:00,,Triage
+P020,Triage,2026-10-01 12:46:00,3.0,Doctor Consultation
+P020,Doctor Consultation,2026-10-01 13:01:00,15.0,Discharge
+P020,Discharge,2026-10-01 13:28:00,27.0,
+P021,Registration,2026-10-01 10:16:00,,Triage
+P021,Triage,2026-10-01 10:24:00,8.0,X-Ray
+P021,X-Ray,2026-10-01 10:34:00,10.0,Triage
+P021,Triage,2026-10-01 10:57:00,23.0,Doctor Consultation
+P021,Doctor Consultation,2026-10-01 11:02:00,5.0,Discharge
+P021,Discharge,2026-10-01 11:20:00,18.0,
+P022,Registration,2026-10-01 14:30:00,,Triage
+P022,Triage,2026-10-01 14:34:00,4.0,Doctor Consultation
+P022,Doctor Consultation,2026-10-01 14:47:00,13.0,Discharge
+P022,Discharge,2026-10-01 15:17:00,30.0,
+P023,Registration,2026-10-01 15:10:00,,Triage
+P023,Triage,2026-10-01 15:18:00,8.0,Doctor Consultation
+P023,Doctor Consultation,2026-10-01 15:31:00,13.0,Discharge
+P023,Discharge,2026-10-01 15:45:00,14.0,
+P024,Registration,2026-10-01 14:30:00,,Triage
+P024,Triage,2026-10-01 14:34:00,4.0,Doctor Consultation
+P024,Doctor Consultation,2026-10-01 14:47:00,13.0,Discharge
+P024,Discharge,2026-10-01 15:13:00,26.0,
+P025,Registration,2026-10-01 13:06:00,,Triage
+P025,Triage,2026-10-01 13:11:00,5.0,X-Ray
+P025,X-Ray,2026-10-01 13:23:00,12.0,Doctor Consultation
+P025,Doctor Consultation,2026-10-01 13:44:00,21.0,Discharge
+P025,Discharge,2026-10-01 14:03:00,19.0,
+P026,Registration,2026-10-01 08:29:00,,Triage
+P026,Triage,2026-10-01 08:33:00,4.0,Doctor Consultation
+P026,Doctor Consultation,2026-10-01 08:47:00,14.0,Discharge
+P026,Discharge,2026-10-01 08:59:00,12.0,
+P027,Registration,2026-10-01 12:08:00,,Triage
+P027,Triage,2026-10-01 12:11:00,3.0,Doctor Consultation
+P027,Doctor Consultation,2026-10-01 12:24:00,13.0,Discharge
+P027,Discharge,2026-10-01 12:38:00,14.0,
+P028,Registration,2026-10-01 12:03:00,,Triage
+P028,Triage,2026-10-01 12:10:00,7.0,X-Ray
+P028,X-Ray,2026-10-01 12:17:00,7.0,Doctor Consultation
+P028,Doctor Consultation,2026-10-01 12:40:00,23.0,Discharge
+P028,Discharge,2026-10-01 13:07:00,27.0,
+P029,Registration,2026-10-01 14:13:00,,Triage
+P029,Triage,2026-10-01 14:21:00,8.0,Doctor Consultation
+P029,Doctor Consultation,2026-10-01 14:29:00,8.0,Discharge
+P029,Discharge,2026-10-01 14:51:00,22.0,
+P030,Registration,2026-10-01 13:32:00,,Triage
+P030,Triage,2026-10-01 13:37:00,5.0,Doctor Consultation
+P030,Doctor Consultation,2026-10-01 13:49:00,12.0,Discharge
+P030,Discharge,2026-10-01 14:13:00,24.0,
+P031,Registration,2026-10-01 10:06:00,,Triage
+P031,Triage,2026-10-01 10:10:00,4.0,X-Ray
+P031,X-Ray,2026-10-01 10:16:00,6.0,Doctor Consultation
+P031,Doctor Consultation,2026-10-01 10:33:00,17.0,Discharge
+P031,Discharge,2026-10-01 10:43:00,10.0,
+P032,Registration,2026-10-01 14:02:00,,Triage
+P032,Triage,2026-10-01 14:10:00,8.0,X-Ray
+P032,X-Ray,2026-10-01 14:15:00,5.0,Doctor Consultation
+P032,Doctor Consultation,2026-10-01 14:26:00,11.0,Discharge
+P032,Discharge,2026-10-01 14:38:00,12.0,
+P033,Registration,2026-10-01 10:01:00,,Triage
+P033,Triage,2026-10-01 10:06:00,5.0,X-Ray
+P033,X-Ray,2026-10-01 10:21:00,15.0,Doctor Consultation
+P033,Doctor Consultation,2026-10-01 10:35:00,14.0,Discharge
+P033,Discharge,2026-10-01 11:03:00,28.0,
+P034,Registration,2026-10-01 12:02:00,,Triage
+P034,Triage,2026-10-01 12:06:00,4.0,Doctor Consultation
+P034,Doctor Consultation,2026-10-01 12:18:00,12.0,Discharge
+P034,Discharge,2026-10-01 12:34:00,16.0,
+P035,Registration,2026-10-01 08:49:00,,Triage
+P035,Triage,2026-10-01 08:57:00,8.0,X-Ray
+P035,X-Ray,2026-10-01 09:08:00,11.0,Doctor Consultation
+P035,Doctor Consultation,2026-10-01 09:31:00,23.0,Discharge
+P035,Discharge,2026-10-01 09:42:00,11.0,
+P036,Registration,2026-10-01 13:34:00,,Triage
+P036,Triage,2026-10-01 13:42:00,8.0,X-Ray
+P036,X-Ray,2026-10-01 13:48:00,6.0,Doctor Consultation
+P036,Doctor Consultation,2026-10-01 14:08:00,20.0,Discharge
+P036,Discharge,2026-10-01 14:21:00,13.0,
+P037,Registration,2026-10-01 09:38:00,,Triage
+P037,Triage,2026-10-01 09:42:00,4.0,X-Ray
+P037,X-Ray,2026-10-01 09:55:00,13.0,Triage
+P037,Triage,2026-10-01 10:18:00,23.0,Doctor Consultation
+P037,Doctor Consultation,2026-10-01 10:30:00,12.0,Discharge
+P037,Discharge,2026-10-01 10:47:00,17.0,
+P038,Registration,2026-10-01 15:52:00,,Triage
+P038,Triage,2026-10-01 15:55:00,3.0,Doctor Consultation
+P038,Doctor Consultation,2026-10-01 16:07:00,12.0,Discharge
+P038,Discharge,2026-10-01 16:34:00,27.0,
+P039,Registration,2026-10-01 08:25:00,,Triage
+P039,Triage,2026-10-01 08:33:00,8.0,Doctor Consultation
+P039,Doctor Consultation,2026-10-01 08:46:00,13.0,Discharge
+P039,Discharge,2026-10-01 08:58:00,12.0,
+P040,Registration,2026-10-01 15:14:00,,Triage
+P040,Triage,2026-10-01 15:18:00,4.0,X-Ray
+P040,X-Ray,2026-10-01 15:25:00,7.0,Triage
+P040,Triage,2026-10-01 15:50:00,25.0,Doctor Consultation
+P040,Doctor Consultation,2026-10-01 16:01:00,11.0,Discharge
+P040,Discharge,2026-10-01 16:12:00,11.0,
+P041,Registration,2026-10-01 11:14:00,,Triage
+P041,Triage,2026-10-01 11:17:00,3.0,X-Ray
+P041,X-Ray,2026-10-01 11:28:00,11.0,Triage
+P041,Triage,2026-10-01 11:52:00,24.0,Doctor Consultation
+P041,Doctor Consultation,2026-10-01 12:05:00,13.0,Discharge
+P041,Discharge,2026-10-01 12:30:00,25.0,
+P042,Registration,2026-10-01 09:37:00,,Triage
+P042,Triage,2026-10-01 09:42:00,5.0,Doctor Consultation
+P042,Doctor Consultation,2026-10-01 09:50:00,8.0,Discharge
+P042,Discharge,2026-10-01 10:18:00,28.0,
+P043,Registration,2026-10-01 12:37:00,,Triage
+P043,Triage,2026-10-01 12:40:00,3.0,X-Ray
+P043,X-Ray,2026-10-01 12:50:00,10.0,Doctor Consultation
+P043,Doctor Consultation,2026-10-01 13:15:00,25.0,Discharge
+P043,Discharge,2026-10-01 13:41:00,26.0,
+P044,Registration,2026-10-01 08:29:00,,Triage
+P044,Triage,2026-10-01 08:36:00,7.0,Doctor Consultation
+P044,Doctor Consultation,2026-10-01 08:42:00,6.0,Discharge
+P044,Discharge,2026-10-01 08:54:00,12.0,
+P045,Registration,2026-10-01 08:34:00,,Triage
+P045,Triage,2026-10-01 08:42:00,8.0,X-Ray
+P045,X-Ray,2026-10-01 08:50:00,8.0,Doctor Consultation
+P045,Doctor Consultation,2026-10-01 09:07:00,17.0,Discharge
+P045,Discharge,2026-10-01 09:18:00,11.0,
+P046,Registration,2026-10-01 08:41:00,,Triage
+P046,Triage,2026-10-01 08:47:00,6.0,X-Ray
+P046,X-Ray,2026-10-01 09:02:00,15.0,Doctor Consultation
+P046,Doctor Consultation,2026-10-01 09:22:00,20.0,Discharge
+P046,Discharge,2026-10-01 09:38:00,16.0,
+P047,Registration,2026-10-01 14:06:00,,Triage
+P047,Triage,2026-10-01 14:11:00,5.0,X-Ray
+P047,X-Ray,2026-10-01 14:19:00,8.0,Doctor Consultation
+P047,Doctor Consultation,2026-10-01 14:33:00,14.0,Discharge
+P047,Discharge,2026-10-01 14:52:00,19.0,
+P048,Registration,2026-10-01 10:41:00,,Triage
+P048,Triage,2026-10-01 10:44:00,3.0,X-Ray
+P048,X-Ray,2026-10-01 10:49:00,5.0,Triage
+P048,Triage,2026-10-01 11:02:00,13.0,Doctor Consultation
+P048,Doctor Consultation,2026-10-01 11:10:00,8.0,Discharge
+P048,Discharge,2026-10-01 11:36:00,26.0,
+P049,Registration,2026-10-01 09:07:00,,Triage
+P049,Triage,2026-10-01 09:12:00,5.0,Doctor Consultation
+P049,Doctor Consultation,2026-10-01 09:18:00,6.0,Discharge
+P049,Discharge,2026-10-01 09:39:00,21.0,
+P050,Registration,2026-10-01 09:20:00,,Triage
+P050,Triage,2026-10-01 09:26:00,6.0,Doctor Consultation
+P050,Doctor Consultation,2026-10-01 09:39:00,13.0,Discharge
+P050,Discharge,2026-10-01 10:08:00,29.0,
+P051,Registration,2026-10-01 13:34:00,,Triage
+P051,Triage,2026-10-01 13:41:00,7.0,Doctor Consultation
+P051,Doctor Consultation,2026-10-01 13:46:00,5.0,Discharge
+P051,Discharge,2026-10-01 14:13:00,27.0,
+P052,Registration,2026-10-01 15:57:00,,Triage
+P052,Triage,2026-10-01 16:05:00,8.0,Doctor Consultation
+P052,Doctor Consultation,2026-10-01 16:11:00,6.0,Discharge
+P052,Discharge,2026-10-01 16:25:00,14.0,
+P053,Registration,2026-10-01 08:59:00,,Triage
+P053,Triage,2026-10-01 09:02:00,3.0,X-Ray
+P053,X-Ray,2026-10-01 09:15:00,13.0,Doctor Consultation
+P053,Doctor Consultation,2026-10-01 09:34:00,19.0,Discharge
+P053,Discharge,2026-10-01 09:54:00,20.0,
+P054,Registration,2026-10-01 13:51:00,,Triage
+P054,Triage,2026-10-01 13:59:00,8.0,X-Ray
+P054,X-Ray,2026-10-01 14:08:00,9.0,Doctor Consultation
+P054,Doctor Consultation,2026-10-01 14:26:00,18.0,Discharge
+P054,Discharge,2026-10-01 14:37:00,11.0,
+P055,Registration,2026-10-01 13:24:00,,Triage
+P055,Triage,2026-10-01 13:30:00,6.0,X-Ray
+P055,X-Ray,2026-10-01 13:39:00,9.0,Doctor Consultation
+P055,Doctor Consultation,2026-10-01 13:59:00,20.0,Discharge
+P055,Discharge,2026-10-01 14:29:00,30.0,
+P056,Registration,2026-10-01 09:22:00,,Triage
+P056,Triage,2026-10-01 09:30:00,8.0,X-Ray
+P056,X-Ray,2026-10-01 09:42:00,12.0,Doctor Consultation
+P056,Doctor Consultation,2026-10-01 10:05:00,23.0,Discharge
+P056,Discharge,2026-10-01 10:18:00,13.0,
+P057,Registration,2026-10-01 15:32:00,,Triage
+P057,Triage,2026-10-01 15:40:00,8.0,X-Ray
+P057,X-Ray,2026-10-01 15:47:00,7.0,Doctor Consultation
+P057,Doctor Consultation,2026-10-01 16:08:00,21.0,Discharge
+P057,Discharge,2026-10-01 16:22:00,14.0,
+P058,Registration,2026-10-01 09:05:00,,Triage
+P058,Triage,2026-10-01 09:08:00,3.0,X-Ray
+P058,X-Ray,2026-10-01 09:17:00,9.0,Doctor Consultation
+P058,Doctor Consultation,2026-10-01 09:28:00,11.0,Discharge
+P058,Discharge,2026-10-01 09:44:00,16.0,
+P059,Registration,2026-10-01 10:07:00,,Triage
+P059,Triage,2026-10-01 10:15:00,8.0,X-Ray
+P059,X-Ray,2026-10-01 10:21:00,6.0,Doctor Consultation
+P059,Doctor Consultation,2026-10-01 10:44:00,23.0,Discharge
+P059,Discharge,2026-10-01 10:58:00,14.0,
+P060,Registration,2026-10-01 15:22:00,,Triage
+P060,Triage,2026-10-01 15:26:00,4.0,Doctor Consultation
+P060,Doctor Consultation,2026-10-01 15:33:00,7.0,Discharge
+P060,Discharge,2026-10-01 15:43:00,10.0,
+P061,Registration,2026-10-01 14:17:00,,Triage
+P061,Triage,2026-10-01 14:22:00,5.0,Doctor Consultation
+P061,Doctor Consultation,2026-10-01 14:33:00,11.0,Discharge
+P061,Discharge,2026-10-01 14:50:00,17.0,
+P062,Registration,2026-10-01 09:21:00,,Triage
+P062,Triage,2026-10-01 09:29:00,8.0,X-Ray
+P062,X-Ray,2026-10-01 09:35:00,6.0,Doctor Consultation
+P062,Doctor Consultation,2026-10-01 09:46:00,11.0,Discharge
+P062,Discharge,2026-10-01 10:03:00,17.0,
+P063,Registration,2026-10-01 14:58:00,,Triage
+P063,Triage,2026-10-01 15:04:00,6.0,X-Ray
+P063,X-Ray,2026-10-01 15:14:00,10.0,Triage
+P063,Triage,2026-10-01 15:31:00,17.0,Doctor Consultation
+P063,Doctor Consultation,2026-10-01 15:46:00,15.0,Discharge
+P063,Discharge,2026-10-01 16:02:00,16.0,
+P064,Registration,2026-10-01 10:48:00,,Triage
+P064,Triage,2026-10-01 10:53:00,5.0,Doctor Consultation
+P064,Doctor Consultation,2026-10-01 10:59:00,6.0,Discharge
+P064,Discharge,2026-10-01 11:17:00,18.0,
+P065,Registration,2026-10-01 13:28:00,,Triage
+P065,Triage,2026-10-01 13:35:00,7.0,Doctor Consultation
+P065,Doctor Consultation,2026-10-01 13:46:00,11.0,Discharge
+P065,Discharge,2026-10-01 14:13:00,27.0,
+P066,Registration,2026-10-01 16:00:00,,Triage
+P066,Triage,2026-10-01 16:03:00,3.0,Doctor Consultation
+P066,Doctor Consultation,2026-10-01 16:09:00,6.0,Discharge
+P066,Discharge,2026-10-01 16:27:00,18.0,
+P067,Registration,2026-10-01 12:57:00,,Triage
+P067,Triage,2026-10-01 13:02:00,5.0,X-Ray
+P067,X-Ray,2026-10-01 13:07:00,5.0,Triage
+P067,Triage,2026-10-01 13:30:00,23.0,Doctor Consultation
+P067,Doctor Consultation,2026-10-01 13:40:00,10.0,Discharge
+P067,Discharge,2026-10-01 14:03:00,23.0,
+P068,Registration,2026-10-01 12:21:00,,Triage
+P068,Triage,2026-10-01 12:24:00,3.0,Doctor Consultation
+P068,Doctor Consultation,2026-10-01 12:35:00,11.0,Discharge
+P068,Discharge,2026-10-01 12:51:00,16.0,
+P069,Registration,2026-10-01 08:22:00,,Triage
+P069,Triage,2026-10-01 08:30:00,8.0,X-Ray
+P069,X-Ray,2026-10-01 08:41:00,11.0,Triage
+P069,Triage,2026-10-01 08:57:00,16.0,Doctor Consultation
+P069,Doctor Consultation,2026-10-01 09:03:00,6.0,Discharge
+P069,Discharge,2026-10-01 09:23:00,20.0,
+P070,Registration,2026-10-01 10:40:00,,Triage
+P070,Triage,2026-10-01 10:48:00,8.0,Doctor Consultation
+P070,Doctor Consultation,2026-10-01 10:54:00,6.0,Discharge
+P070,Discharge,2026-10-01 11:13:00,19.0,
+P071,Registration,2026-10-01 10:38:00,,Triage
+P071,Triage,2026-10-01 10:46:00,8.0,X-Ray
+P071,X-Ray,2026-10-01 10:57:00,11.0,Doctor Consultation
+P071,Doctor Consultation,2026-10-01 11:16:00,19.0,Discharge
+P071,Discharge,2026-10-01 11:32:00,16.0,
+P072,Registration,2026-10-01 13:40:00,,Triage
+P072,Triage,2026-10-01 13:46:00,6.0,Doctor Consultation
+P072,Doctor Consultation,2026-10-01 14:01:00,15.0,Discharge
+P072,Discharge,2026-10-01 14:16:00,15.0,
+P073,Registration,2026-10-01 12:51:00,,Triage
+P073,Triage,2026-10-01 12:56:00,5.0,X-Ray
+P073,X-Ray,2026-10-01 13:07:00,11.0,Triage
+P073,Triage,2026-10-01 13:17:00,10.0,Doctor Consultation
+P073,Doctor Consultation,2026-10-01 13:25:00,8.0,Discharge
+P073,Discharge,2026-10-01 13:48:00,23.0,
+P074,Registration,2026-10-01 12:56:00,,Triage
+P074,Triage,2026-10-01 13:03:00,7.0,X-Ray
+P074,X-Ray,2026-10-01 13:18:00,15.0,Doctor Consultation
+P074,Doctor Consultation,2026-10-01 13:42:00,24.0,Discharge
+P074,Discharge,2026-10-01 13:58:00,16.0,
+P075,Registration,2026-10-01 12:02:00,,Triage
+P075,Triage,2026-10-01 12:10:00,8.0,Doctor Consultation
+P075,Doctor Consultation,2026-10-01 12:17:00,7.0,Discharge
+P075,Discharge,2026-10-01 12:36:00,19.0,
+P076,Registration,2026-10-01 13:39:00,,Triage
+P076,Triage,2026-10-01 13:47:00,8.0,X-Ray
+P076,X-Ray,2026-10-01 14:01:00,14.0,Doctor Consultation
+P076,Doctor Consultation,2026-10-01 14:18:00,17.0,Discharge
+P076,Discharge,2026-10-01 14:35:00,17.0,
+P077,Registration,2026-10-01 09:41:00,,Triage
+P077,Triage,2026-10-01 09:45:00,4.0,X-Ray
+P077,X-Ray,2026-10-01 09:50:00,5.0,Doctor Consultation
+P077,Doctor Consultation,2026-10-01 10:15:00,25.0,Discharge
+P077,Discharge,2026-10-01 10:27:00,12.0,
+P078,Registration,2026-10-01 11:32:00,,Triage
+P078,Triage,2026-10-01 11:40:00,8.0,X-Ray
+P078,X-Ray,2026-10-01 11:54:00,14.0,Doctor Consultation
+P078,Doctor Consultation,2026-10-01 12:16:00,22.0,Discharge
+P078,Discharge,2026-10-01 12:33:00,17.0,
+P079,Registration,2026-10-01 13:35:00,,Triage
+P079,Triage,2026-10-01 13:43:00,8.0,Doctor Consultation
+P079,Doctor Consultation,2026-10-01 13:48:00,5.0,Discharge
+P079,Discharge,2026-10-01 14:01:00,13.0,
+P080,Registration,2026-10-01 11:37:00,,Triage
+P080,Triage,2026-10-01 11:41:00,4.0,Doctor Consultation
+P080,Doctor Consultation,2026-10-01 11:48:00,7.0,Discharge
+P080,Discharge,2026-10-01 12:14:00,26.0,
+P081,Registration,2026-10-01 08:25:00,,Triage
+P081,Triage,2026-10-01 08:32:00,7.0,Doctor Consultation
+P081,Doctor Consultation,2026-10-01 08:40:00,8.0,Discharge
+P081,Discharge,2026-10-01 08:53:00,13.0,
+P082,Registration,2026-10-01 09:08:00,,Triage
+P082,Triage,2026-10-01 09:14:00,6.0,X-Ray
+P082,X-Ray,2026-10-01 09:29:00,15.0,Doctor Consultation
+P082,Doctor Consultation,2026-10-01 09:49:00,20.0,Discharge
+P082,Discharge,2026-10-01 10:13:00,24.0,
+P083,Registration,2026-10-01 14:57:00,,Triage
+P083,Triage,2026-10-01 15:05:00,8.0,X-Ray
+P083,X-Ray,2026-10-01 15:18:00,13.0,Doctor Consultation
+P083,Doctor Consultation,2026-10-01 15:42:00,24.0,Discharge
+P083,Discharge,2026-10-01 16:07:00,25.0,
+P084,Registration,2026-10-01 10:12:00,,Triage
+P084,Triage,2026-10-01 10:16:00,4.0,X-Ray
+P084,X-Ray,2026-10-01 10:31:00,15.0,Doctor Consultation
+P084,Doctor Consultation,2026-10-01 10:56:00,25.0,Discharge
+P084,Discharge,2026-10-01 11:14:00,18.0,
+P085,Registration,2026-10-01 08:39:00,,Triage
+P085,Triage,2026-10-01 08:47:00,8.0,X-Ray
+P085,X-Ray,2026-10-01 08:56:00,9.0,Triage
+P085,Triage,2026-10-01 09:16:00,20.0,Doctor Consultation
+P085,Doctor Consultation,2026-10-01 09:29:00,13.0,Discharge
+P085,Discharge,2026-10-01 09:41:00,12.0,
+P086,Registration,2026-10-01 09:17:00,,Triage
+P086,Triage,2026-10-01 09:21:00,4.0,Doctor Consultation
+P086,Doctor Consultation,2026-10-01 09:32:00,11.0,Discharge
+P086,Discharge,2026-10-01 09:48:00,16.0,
+P087,Registration,2026-10-01 11:32:00,,Triage
+P087,Triage,2026-10-01 11:38:00,6.0,X-Ray
+P087,X-Ray,2026-10-01 11:48:00,10.0,Triage
+P087,Triage,2026-10-01 12:11:00,23.0,Doctor Consultation
+P087,Doctor Consultation,2026-10-01 12:22:00,11.0,Discharge
+P087,Discharge,2026-10-01 12:44:00,22.0,
+P088,Registration,2026-10-01 12:59:00,,Triage
+P088,Triage,2026-10-01 13:07:00,8.0,Doctor Consultation
+P088,Doctor Consultation,2026-10-01 13:12:00,5.0,Discharge
+P088,Discharge,2026-10-01 13:40:00,28.0,
+P089,Registration,2026-10-01 12:04:00,,Triage
+P089,Triage,2026-10-01 12:07:00,3.0,X-Ray
+P089,X-Ray,2026-10-01 12:17:00,10.0,Doctor Consultation
+P089,Doctor Consultation,2026-10-01 12:39:00,22.0,Discharge
+P089,Discharge,2026-10-01 13:02:00,23.0,
+P090,Registration,2026-10-01 14:22:00,,Triage
+P090,Triage,2026-10-01 14:30:00,8.0,Doctor Consultation
+P090,Doctor Consultation,2026-10-01 14:43:00,13.0,Discharge
+P090,Discharge,2026-10-01 15:00:00,17.0,
+P091,Registration,2026-10-01 09:52:00,,Triage
+P091,Triage,2026-10-01 09:57:00,5.0,X-Ray
+P091,X-Ray,2026-10-01 10:08:00,11.0,Triage
+P091,Triage,2026-10-01 10:30:00,22.0,Doctor Consultation
+P091,Doctor Consultation,2026-10-01 10:45:00,15.0,Discharge
+P091,Discharge,2026-10-01 11:07:00,22.0,
+P092,Registration,2026-10-01 09:24:00,,Triage
+P092,Triage,2026-10-01 09:30:00,6.0,Doctor Consultation
+P092,Doctor Consultation,2026-10-01 09:37:00,7.0,Discharge
+P092,Discharge,2026-10-01 10:04:00,27.0,
+P093,Registration,2026-10-01 15:44:00,,Triage
+P093,Triage,2026-10-01 15:50:00,6.0,X-Ray
+P093,X-Ray,2026-10-01 16:04:00,14.0,Triage
+P093,Triage,2026-10-01 16:14:00,10.0,Doctor Consultation
+P093,Doctor Consultation,2026-10-01 16:25:00,11.0,Discharge
+P093,Discharge,2026-10-01 16:39:00,14.0,
+P094,Registration,2026-10-01 11:56:00,,Triage
+P094,Triage,2026-10-01 12:00:00,4.0,X-Ray
+P094,X-Ray,2026-10-01 12:05:00,5.0,Triage
+P094,Triage,2026-10-01 12:25:00,20.0,Doctor Consultation
+P094,Doctor Consultation,2026-10-01 12:35:00,10.0,Discharge
+P094,Discharge,2026-10-01 12:55:00,20.0,
+P095,Registration,2026-10-01 15:30:00,,Triage
+P095,Triage,2026-10-01 15:36:00,6.0,Doctor Consultation
+P095,Doctor Consultation,2026-10-01 15:45:00,9.0,Discharge
+P095,Discharge,2026-10-01 16:08:00,23.0,
+P096,Registration,2026-10-01 15:07:00,,Triage
+P096,Triage,2026-10-01 15:10:00,3.0,X-Ray
+P096,X-Ray,2026-10-01 15:22:00,12.0,Doctor Consultation
+P096,Doctor Consultation,2026-10-01 15:33:00,11.0,Discharge
+P096,Discharge,2026-10-01 15:54:00,21.0,
+P097,Registration,2026-10-01 13:32:00,,Triage
+P097,Triage,2026-10-01 13:35:00,3.0,X-Ray
+P097,X-Ray,2026-10-01 13:50:00,15.0,Doctor Consultation
+P097,Doctor Consultation,2026-10-01 14:00:00,10.0,Discharge
+P097,Discharge,2026-10-01 14:16:00,16.0,
+P098,Registration,2026-10-01 08:10:00,,Triage
+P098,Triage,2026-10-01 08:17:00,7.0,X-Ray
+P098,X-Ray,2026-10-01 08:24:00,7.0,Doctor Consultation
+P098,Doctor Consultation,2026-10-01 08:49:00,25.0,Discharge
+P098,Discharge,2026-10-01 09:17:00,28.0,
+P099,Registration,2026-10-01 11:58:00,,Triage
+P099,Triage,2026-10-01 12:06:00,8.0,Doctor Consultation
+P099,Doctor Consultation,2026-10-01 12:15:00,9.0,Discharge
+P099,Discharge,2026-10-01 12:30:00,15.0,
+P100,Registration,2026-10-01 13:10:00,,Triage
+P100,Triage,2026-10-01 13:18:00,8.0,Doctor Consultation
+P100,Doctor Consultation,2026-10-01 13:24:00,6.0,Discharge
+P100,Discharge,2026-10-01 13:39:00,15.0,
+P101,Registration,2026-10-01 08:55:00,,Triage
+P101,Triage,2026-10-01 09:02:00,7.0,Doctor Consultation
+P101,Doctor Consultation,2026-10-01 09:07:00,5.0,Discharge
+P101,Discharge,2026-10-01 09:35:00,28.0,
+P102,Registration,2026-10-01 15:44:00,,Triage
+P102,Triage,2026-10-01 15:50:00,6.0,Doctor Consultation
+P102,Doctor Consultation,2026-10-01 16:01:00,11.0,Discharge
+P102,Discharge,2026-10-01 16:17:00,16.0,
+P103,Registration,2026-10-01 13:03:00,,Triage
+P103,Triage,2026-10-01 13:11:00,8.0,X-Ray
+P103,X-Ray,2026-10-01 13:26:00,15.0,Doctor Consultation
+P103,Doctor Consultation,2026-10-01 13:45:00,19.0,Discharge
+P103,Discharge,2026-10-01 14:14:00,29.0,
+P104,Registration,2026-10-01 09:01:00,,Triage
+P104,Triage,2026-10-01 09:08:00,7.0,X-Ray
+P104,X-Ray,2026-10-01 09:13:00,5.0,Doctor Consultation
+P104,Doctor Consultation,2026-10-01 09:36:00,23.0,Discharge
+P104,Discharge,2026-10-01 09:48:00,12.0,
+P105,Registration,2026-10-01 13:31:00,,Triage
+P105,Triage,2026-10-01 13:36:00,5.0,Doctor Consultation
+P105,Doctor Consultation,2026-10-01 13:41:00,5.0,Discharge
+P105,Discharge,2026-10-01 14:06:00,25.0,
+P106,Registration,2026-10-01 11:41:00,,Triage
+P106,Triage,2026-10-01 11:46:00,5.0,Doctor Consultation
+P106,Doctor Consultation,2026-10-01 12:01:00,15.0,Discharge
+P106,Discharge,2026-10-01 12:25:00,24.0,
+P107,Registration,2026-10-01 09:18:00,,Triage
+P107,Triage,2026-10-01 09:24:00,6.0,Doctor Consultation
+P107,Doctor Consultation,2026-10-01 09:31:00,7.0,Discharge
+P107,Discharge,2026-10-01 10:01:00,30.0,
+P108,Registration,2026-10-01 13:15:00,,Triage
+P108,Triage,2026-10-01 13:22:00,7.0,X-Ray
+P108,X-Ray,2026-10-01 13:34:00,12.0,Triage
+P108,Triage,2026-10-01 13:52:00,18.0,Doctor Consultation
+P108,Doctor Consultation,2026-10-01 14:00:00,8.0,Discharge
+P108,Discharge,2026-10-01 14:12:00,12.0,
+P109,Registration,2026-10-01 15:31:00,,Triage
+P109,Triage,2026-10-01 15:37:00,6.0,Doctor Consultation
+P109,Doctor Consultation,2026-10-01 15:45:00,8.0,Discharge
+P109,Discharge,2026-10-01 16:13:00,28.0,
+P110,Registration,2026-10-01 13:42:00,,Triage
+P110,Triage,2026-10-01 13:48:00,6.0,X-Ray
+P110,X-Ray,2026-10-01 13:58:00,10.0,Triage
+P110,Triage,2026-10-01 14:18:00,20.0,Doctor Consultation
+P110,Doctor Consultation,2026-10-01 14:26:00,8.0,Discharge
+P110,Discharge,2026-10-01 14:47:00,21.0,
+P111,Registration,2026-10-01 10:12:00,,Triage
+P111,Triage,2026-10-01 10:17:00,5.0,Doctor Consultation
+P111,Doctor Consultation,2026-10-01 10:26:00,9.0,Discharge
+P111,Discharge,2026-10-01 10:44:00,18.0,
+P112,Registration,2026-10-01 08:05:00,,Triage
+P112,Triage,2026-10-01 08:12:00,7.0,X-Ray
+P112,X-Ray,2026-10-01 08:20:00,8.0,Doctor Consultation
+P112,Doctor Consultation,2026-10-01 08:43:00,23.0,Discharge
+P112,Discharge,2026-10-01 09:00:00,17.0,
+P113,Registration,2026-10-01 12:03:00,,Triage
+P113,Triage,2026-10-01 12:11:00,8.0,X-Ray
+P113,X-Ray,2026-10-01 12:23:00,12.0,Triage
+P113,Triage,2026-10-01 12:33:00,10.0,Doctor Consultation
+P113,Doctor Consultation,2026-10-01 12:41:00,8.0,Discharge
+P113,Discharge,2026-10-01 13:03:00,22.0,
+P114,Registration,2026-10-01 10:04:00,,Triage
+P114,Triage,2026-10-01 10:09:00,5.0,X-Ray
+P114,X-Ray,2026-10-01 10:24:00,15.0,Doctor Consultation
+P114,Doctor Consultation,2026-10-01 10:49:00,25.0,Discharge
+P114,Discharge,2026-10-01 11:10:00,21.0,
+P115,Registration,2026-10-01 14:21:00,,Triage
+P115,Triage,2026-10-01 14:28:00,7.0,X-Ray
+P115,X-Ray,2026-10-01 14:38:00,10.0,Triage
+P115,Triage,2026-10-01 15:02:00,24.0,Doctor Consultation
+P115,Doctor Consultation,2026-10-01 15:11:00,9.0,Discharge
+P115,Discharge,2026-10-01 15:28:00,17.0,
+P116,Registration,2026-10-01 14:09:00,,Triage
+P116,Triage,2026-10-01 14:13:00,4.0,X-Ray
+P116,X-Ray,2026-10-01 14:23:00,10.0,Triage
+P116,Triage,2026-10-01 14:38:00,15.0,Doctor Consultation
+P116,Doctor Consultation,2026-10-01 14:50:00,12.0,Discharge
+P116,Discharge,2026-10-01 15:08:00,18.0,
+P117,Registration,2026-10-01 13:01:00,,Triage
+P117,Triage,2026-10-01 13:08:00,7.0,X-Ray
+P117,X-Ray,2026-10-01 13:22:00,14.0,Doctor Consultation
+P117,Doctor Consultation,2026-10-01 13:35:00,13.0,Discharge
+P117,Discharge,2026-10-01 13:54:00,19.0,
+P118,Registration,2026-10-01 11:04:00,,Triage
+P118,Triage,2026-10-01 11:08:00,4.0,X-Ray
+P118,X-Ray,2026-10-01 11:17:00,9.0,Triage
+P118,Triage,2026-10-01 11:31:00,14.0,Doctor Consultation
+P118,Doctor Consultation,2026-10-01 11:36:00,5.0,Discharge
+P118,Discharge,2026-10-01 12:03:00,27.0,
+P119,Registration,2026-10-01 13:57:00,,Triage
+P119,Triage,2026-10-01 14:01:00,4.0,Doctor Consultation
+P119,Doctor Consultation,2026-10-01 14:16:00,15.0,Discharge
+P119,Discharge,2026-10-01 14:41:00,25.0,
+P120,Registration,2026-10-01 15:26:00,,Triage
+P120,Triage,2026-10-01 15:29:00,3.0,X-Ray
+P120,X-Ray,2026-10-01 15:43:00,14.0,Doctor Consultation
+P120,Doctor Consultation,2026-10-01 16:08:00,25.0,Discharge
+P120,Discharge,2026-10-01 16:23:00,15.0,
+P121,Registration,2026-10-01 10:09:00,,Triage
+P121,Triage,2026-10-01 10:15:00,6.0,Doctor Consultation
+P121,Doctor Consultation,2026-10-01 10:21:00,6.0,Discharge
+P121,Discharge,2026-10-01 10:43:00,22.0,
+P122,Registration,2026-10-01 08:37:00,,Triage
+P122,Triage,2026-10-01 08:44:00,7.0,Doctor Consultation
+P122,Doctor Consultation,2026-10-01 08:59:00,15.0,Discharge
+P122,Discharge,2026-10-01 09:13:00,14.0,
+P123,Registration,2026-10-01 14:55:00,,Triage
+P123,Triage,2026-10-01 15:02:00,7.0,X-Ray
+P123,X-Ray,2026-10-01 15:11:00,9.0,Triage
+P123,Triage,2026-10-01 15:28:00,17.0,Doctor Consultation
+P123,Doctor Consultation,2026-10-01 15:39:00,11.0,Discharge
+P123,Discharge,2026-10-01 16:08:00,29.0,
+P124,Registration,2026-10-01 14:44:00,,Triage
+P124,Triage,2026-10-01 14:51:00,7.0,Doctor Consultation
+P124,Doctor Consultation,2026-10-01 14:59:00,8.0,Discharge
+P124,Discharge,2026-10-01 15:21:00,22.0,
+P125,Registration,2026-10-01 15:45:00,,Triage
+P125,Triage,2026-10-01 15:51:00,6.0,Doctor Consultation
+P125,Doctor Consultation,2026-10-01 16:00:00,9.0,Discharge
+P125,Discharge,2026-10-01 16:23:00,23.0,
+P126,Registration,2026-10-01 12:51:00,,Triage
+P126,Triage,2026-10-01 12:58:00,7.0,Doctor Consultation
+P126,Doctor Consultation,2026-10-01 13:03:00,5.0,Discharge
+P126,Discharge,2026-10-01 13:16:00,13.0,
+P127,Registration,2026-10-01 09:46:00,,Triage
+P127,Triage,2026-10-01 09:54:00,8.0,X-Ray
+P127,X-Ray,2026-10-01 10:02:00,8.0,Triage
+P127,Triage,2026-10-01 10:14:00,12.0,Doctor Consultation
+P127,Doctor Consultation,2026-10-01 10:21:00,7.0,Discharge
+P127,Discharge,2026-10-01 10:48:00,27.0,
+P128,Registration,2026-10-01 09:20:00,,Triage
+P128,Triage,2026-10-01 09:23:00,3.0,X-Ray
+P128,X-Ray,2026-10-01 09:34:00,11.0,Triage
+P128,Triage,2026-10-01 09:59:00,25.0,Doctor Consultation
+P128,Doctor Consultation,2026-10-01 10:07:00,8.0,Discharge
+P128,Discharge,2026-10-01 10:26:00,19.0,
+P129,Registration,2026-10-01 10:24:00,,Triage
+P129,Triage,2026-10-01 10:32:00,8.0,X-Ray
+P129,X-Ray,2026-10-01 10:44:00,12.0,Doctor Consultation
+P129,Doctor Consultation,2026-10-01 11:01:00,17.0,Discharge
+P129,Discharge,2026-10-01 11:31:00,30.0,
+P130,Registration,2026-10-01 13:38:00,,Triage
+P130,Triage,2026-10-01 13:42:00,4.0,X-Ray
+P130,X-Ray,2026-10-01 13:53:00,11.0,Doctor Consultation
+P130,Doctor Consultation,2026-10-01 14:10:00,17.0,Discharge
+P130,Discharge,2026-10-01 14:28:00,18.0,
+P131,Registration,2026-10-01 09:12:00,,Triage
+P131,Triage,2026-10-01 09:15:00,3.0,X-Ray
+P131,X-Ray,2026-10-01 09:20:00,5.0,Doctor Consultation
+P131,Doctor Consultation,2026-10-01 09:39:00,19.0,Discharge
+P131,Discharge,2026-10-01 10:07:00,28.0,
+P132,Registration,2026-10-01 11:44:00,,Triage
+P132,Triage,2026-10-01 11:47:00,3.0,Doctor Consultation
+P132,Doctor Consultation,2026-10-01 11:59:00,12.0,Discharge
+P132,Discharge,2026-10-01 12:21:00,22.0,
+P133,Registration,2026-10-01 12:16:00,,Triage
+P133,Triage,2026-10-01 12:23:00,7.0,X-Ray
+P133,X-Ray,2026-10-01 12:35:00,12.0,Doctor Consultation
+P133,Doctor Consultation,2026-10-01 12:46:00,11.0,Discharge
+P133,Discharge,2026-10-01 13:06:00,20.0,
+P134,Registration,2026-10-01 10:08:00,,Triage
+P134,Triage,2026-10-01 10:11:00,3.0,X-Ray
+P134,X-Ray,2026-10-01 10:17:00,6.0,Doctor Consultation
+P134,Doctor Consultation,2026-10-01 10:27:00,10.0,Discharge
+P134,Discharge,2026-10-01 10:45:00,18.0,
+P135,Registration,2026-10-01 08:20:00,,Triage
+P135,Triage,2026-10-01 08:24:00,4.0,X-Ray
+P135,X-Ray,2026-10-01 08:36:00,12.0,Doctor Consultation
+P135,Doctor Consultation,2026-10-01 09:00:00,24.0,Discharge
+P135,Discharge,2026-10-01 09:15:00,15.0,
+P136,Registration,2026-10-01 11:43:00,,Triage
+P136,Triage,2026-10-01 11:51:00,8.0,Doctor Consultation
+P136,Doctor Consultation,2026-10-01 12:03:00,12.0,Discharge
+P136,Discharge,2026-10-01 12:28:00,25.0,
+P137,Registration,2026-10-01 11:29:00,,Triage
+P137,Triage,2026-10-01 11:34:00,5.0,Doctor Consultation
+P137,Doctor Consultation,2026-10-01 11:44:00,10.0,Discharge
+P137,Discharge,2026-10-01 11:59:00,15.0,
+P138,Registration,2026-10-01 11:30:00,,Triage
+P138,Triage,2026-10-01 11:38:00,8.0,X-Ray
+P138,X-Ray,2026-10-01 11:50:00,12.0,Doctor Consultation
+P138,Doctor Consultation,2026-10-01 12:12:00,22.0,Discharge
+P138,Discharge,2026-10-01 12:39:00,27.0,
+P139,Registration,2026-10-01 11:52:00,,Triage
+P139,Triage,2026-10-01 11:55:00,3.0,X-Ray
+P139,X-Ray,2026-10-01 12:05:00,10.0,Doctor Consultation
+P139,Doctor Consultation,2026-10-01 12:18:00,13.0,Discharge
+P139,Discharge,2026-10-01 12:40:00,22.0,
+P140,Registration,2026-10-01 12:23:00,,Triage
+P140,Triage,2026-10-01 12:26:00,3.0,Doctor Consultation
+P140,Doctor Consultation,2026-10-01 12:41:00,15.0,Discharge
+P140,Discharge,2026-10-01 13:05:00,24.0,
+P141,Registration,2026-10-01 08:27:00,,Triage
+P141,Triage,2026-10-01 08:31:00,4.0,X-Ray
+P141,X-Ray,2026-10-01 08:44:00,13.0,Doctor Consultation
+P141,Doctor Consultation,2026-10-01 09:09:00,25.0,Discharge
+P141,Discharge,2026-10-01 09:20:00,11.0,
+P142,Registration,2026-10-01 10:16:00,,Triage
+P142,Triage,2026-10-01 10:23:00,7.0,Doctor Consultation
+P142,Doctor Consultation,2026-10-01 10:30:00,7.0,Discharge
+P142,Discharge,2026-10-01 10:54:00,24.0,
+P143,Registration,2026-10-01 12:08:00,,Triage
+P143,Triage,2026-10-01 12:11:00,3.0,Doctor Consultation
+P143,Doctor Consultation,2026-10-01 12:16:00,5.0,Discharge
+P143,Discharge,2026-10-01 12:45:00,29.0,
+P144,Registration,2026-10-01 10:02:00,,Triage
+P144,Triage,2026-10-01 10:10:00,8.0,X-Ray
+P144,X-Ray,2026-10-01 10:17:00,7.0,Doctor Consultation
+P144,Doctor Consultation,2026-10-01 10:27:00,10.0,Discharge
+P144,Discharge,2026-10-01 10:39:00,12.0,
+P145,Registration,2026-10-01 15:10:00,,Triage
+P145,Triage,2026-10-01 15:13:00,3.0,Doctor Consultation
+P145,Doctor Consultation,2026-10-01 15:25:00,12.0,Discharge
+P145,Discharge,2026-10-01 15:55:00,30.0,
+P146,Registration,2026-10-01 09:18:00,,Triage
+P146,Triage,2026-10-01 09:24:00,6.0,X-Ray
+P146,X-Ray,2026-10-01 09:33:00,9.0,Doctor Consultation
+P146,Doctor Consultation,2026-10-01 09:51:00,18.0,Discharge
+P146,Discharge,2026-10-01 10:16:00,25.0,
+P147,Registration,2026-10-01 10:04:00,,Triage
+P147,Triage,2026-10-01 10:10:00,6.0,X-Ray
+P147,X-Ray,2026-10-01 10:23:00,13.0,Doctor Consultation
+P147,Doctor Consultation,2026-10-01 10:39:00,16.0,Discharge
+P147,Discharge,2026-10-01 11:05:00,26.0,
+P148,Registration,2026-10-01 15:30:00,,Triage
+P148,Triage,2026-10-01 15:34:00,4.0,X-Ray
+P148,X-Ray,2026-10-01 15:40:00,6.0,Triage
+P148,Triage,2026-10-01 16:03:00,23.0,Doctor Consultation
+P148,Doctor Consultation,2026-10-01 16:16:00,13.0,Discharge
+P148,Discharge,2026-10-01 16:34:00,18.0,
+P149,Registration,2026-10-01 08:01:00,,Triage
+P149,Triage,2026-10-01 08:06:00,5.0,Doctor Consultation
+P149,Doctor Consultation,2026-10-01 08:15:00,9.0,Discharge
+P149,Discharge,2026-10-01 08:43:00,28.0,
+P150,Registration,2026-10-01 12:10:00,,Triage
+P150,Triage,2026-10-01 12:14:00,4.0,X-Ray
+P150,X-Ray,2026-10-01 12:26:00,12.0,Triage
+P150,Triage,2026-10-01 12:47:00,21.0,Doctor Consultation
+P150,Doctor Consultation,2026-10-01 13:00:00,13.0,Discharge
+P150,Discharge,2026-10-01 13:22:00,22.0,
+P151,Registration,2026-10-01 15:57:00,,Triage
+P151,Triage,2026-10-01 16:02:00,5.0,Doctor Consultation
+P151,Doctor Consultation,2026-10-01 16:10:00,8.0,Discharge
+P151,Discharge,2026-10-01 16:27:00,17.0,
+P152,Registration,2026-10-01 11:16:00,,Triage
+P152,Triage,2026-10-01 11:20:00,4.0,X-Ray
+P152,X-Ray,2026-10-01 11:31:00,11.0,Doctor Consultation
+P152,Doctor Consultation,2026-10-01 11:56:00,25.0,Discharge
+P152,Discharge,2026-10-01 12:18:00,22.0,
+P153,Registration,2026-10-01 13:39:00,,Triage
+P153,Triage,2026-10-01 13:47:00,8.0,X-Ray
+P153,X-Ray,2026-10-01 13:54:00,7.0,Triage
+P153,Triage,2026-10-01 14:05:00,11.0,Doctor Consultation
+P153,Doctor Consultation,2026-10-01 14:19:00,14.0,Discharge
+P153,Discharge,2026-10-01 14:39:00,20.0,
+P154,Registration,2026-10-01 08:51:00,,Triage
+P154,Triage,2026-10-01 08:57:00,6.0,X-Ray
+P154,X-Ray,2026-10-01 09:03:00,6.0,Triage
+P154,Triage,2026-10-01 09:27:00,24.0,Doctor Consultation
+P154,Doctor Consultation,2026-10-01 09:34:00,7.0,Discharge
+P154,Discharge,2026-10-01 09:57:00,23.0,
+P155,Registration,2026-10-01 13:35:00,,Triage
+P155,Triage,2026-10-01 13:39:00,4.0,X-Ray
+P155,X-Ray,2026-10-01 13:45:00,6.0,Triage
+P155,Triage,2026-10-01 14:03:00,18.0,Doctor Consultation
+P155,Doctor Consultation,2026-10-01 14:14:00,11.0,Discharge
+P155,Discharge,2026-10-01 14:44:00,30.0,
+P156,Registration,2026-10-01 15:16:00,,Triage
+P156,Triage,2026-10-01 15:21:00,5.0,Doctor Consultation
+P156,Doctor Consultation,2026-10-01 15:36:00,15.0,Discharge
+P156,Discharge,2026-10-01 15:58:00,22.0,
+P157,Registration,2026-10-01 13:20:00,,Triage
+P157,Triage,2026-10-01 13:28:00,8.0,Doctor Consultation
+P157,Doctor Consultation,2026-10-01 13:40:00,12.0,Discharge
+P157,Discharge,2026-10-01 13:51:00,11.0,
+P158,Registration,2026-10-01 08:35:00,,Triage
+P158,Triage,2026-10-01 08:39:00,4.0,Doctor Consultation
+P158,Doctor Consultation,2026-10-01 08:54:00,15.0,Discharge
+P158,Discharge,2026-10-01 09:13:00,19.0,
+P159,Registration,2026-10-01 14:22:00,,Triage
+P159,Triage,2026-10-01 14:25:00,3.0,Doctor Consultation
+P159,Doctor Consultation,2026-10-01 14:36:00,11.0,Discharge
+P159,Discharge,2026-10-01 15:06:00,30.0,
+P160,Registration,2026-10-01 15:26:00,,Triage
+P160,Triage,2026-10-01 15:29:00,3.0,X-Ray
+P160,X-Ray,2026-10-01 15:41:00,12.0,Doctor Consultation
+P160,Doctor Consultation,2026-10-01 16:00:00,19.0,Discharge
+P160,Discharge,2026-10-01 16:11:00,11.0,
+P161,Registration,2026-10-01 14:47:00,,Triage
+P161,Triage,2026-10-01 14:50:00,3.0,X-Ray
+P161,X-Ray,2026-10-01 14:59:00,9.0,Triage
+P161,Triage,2026-10-01 15:22:00,23.0,Doctor Consultation
+P161,Doctor Consultation,2026-10-01 15:35:00,13.0,Discharge
+P161,Discharge,2026-10-01 15:58:00,23.0,
+P162,Registration,2026-10-01 13:49:00,,Triage
+P162,Triage,2026-10-01 13:53:00,4.0,X-Ray
+P162,X-Ray,2026-10-01 14:00:00,7.0,Doctor Consultation
+P162,Doctor Consultation,2026-10-01 14:22:00,22.0,Discharge
+P162,Discharge,2026-10-01 14:39:00,17.0,
+P163,Registration,2026-10-01 15:47:00,,Triage
+P163,Triage,2026-10-01 15:54:00,7.0,X-Ray
+P163,X-Ray,2026-10-01 16:01:00,7.0,Doctor Consultation
+P163,Doctor Consultation,2026-10-01 16:19:00,18.0,Discharge
+P163,Discharge,2026-10-01 16:29:00,10.0,
+P164,Registration,2026-10-01 11:58:00,,Triage
+P164,Triage,2026-10-01 12:03:00,5.0,X-Ray
+P164,X-Ray,2026-10-01 12:18:00,15.0,Doctor Consultation
+P164,Doctor Consultation,2026-10-01 12:30:00,12.0,Discharge
+P164,Discharge,2026-10-01 12:51:00,21.0,
+P165,Registration,2026-10-01 10:33:00,,Triage
+P165,Triage,2026-10-01 10:41:00,8.0,Doctor Consultation
+P165,Doctor Consultation,2026-10-01 10:52:00,11.0,Discharge
+P165,Discharge,2026-10-01 11:16:00,24.0,
+P166,Registration,2026-10-01 10:34:00,,Triage
+P166,Triage,2026-10-01 10:38:00,4.0,Doctor Consultation
+P166,Doctor Consultation,2026-10-01 10:49:00,11.0,Discharge
+P166,Discharge,2026-10-01 11:02:00,13.0,
+P167,Registration,2026-10-01 11:15:00,,Triage
+P167,Triage,2026-10-01 11:22:00,7.0,X-Ray
+P167,X-Ray,2026-10-01 11:32:00,10.0,Triage
+P167,Triage,2026-10-01 11:51:00,19.0,Doctor Consultation
+P167,Doctor Consultation,2026-10-01 12:06:00,15.0,Discharge
+P167,Discharge,2026-10-01 12:28:00,22.0,
+P168,Registration,2026-10-01 08:04:00,,Triage
+P168,Triage,2026-10-01 08:11:00,7.0,Doctor Consultation
+P168,Doctor Consultation,2026-10-01 08:26:00,15.0,Discharge
+P168,Discharge,2026-10-01 08:37:00,11.0,
+P169,Registration,2026-10-01 14:21:00,,Triage
+P169,Triage,2026-10-01 14:27:00,6.0,Doctor Consultation
+P169,Doctor Consultation,2026-10-01 14:36:00,9.0,Discharge
+P169,Discharge,2026-10-01 14:53:00,17.0,
+P170,Registration,2026-10-01 14:50:00,,Triage
+P170,Triage,2026-10-01 14:55:00,5.0,Doctor Consultation
+P170,Doctor Consultation,2026-10-01 15:03:00,8.0,Discharge
+P170,Discharge,2026-10-01 15:32:00,29.0,
+P171,Registration,2026-10-01 13:47:00,,Triage
+P171,Triage,2026-10-01 13:55:00,8.0,Doctor Consultation
+P171,Doctor Consultation,2026-10-01 14:10:00,15.0,Discharge
+P171,Discharge,2026-10-01 14:24:00,14.0,
+P172,Registration,2026-10-01 08:49:00,,Triage
+P172,Triage,2026-10-01 08:57:00,8.0,X-Ray
+P172,X-Ray,2026-10-01 09:12:00,15.0,Triage
+P172,Triage,2026-10-01 09:36:00,24.0,Doctor Consultation
+P172,Doctor Consultation,2026-10-01 09:46:00,10.0,Discharge
+P172,Discharge,2026-10-01 10:00:00,14.0,
+P173,Registration,2026-10-01 15:45:00,,Triage
+P173,Triage,2026-10-01 15:50:00,5.0,Doctor Consultation
+P173,Doctor Consultation,2026-10-01 16:00:00,10.0,Discharge
+P173,Discharge,2026-10-01 16:15:00,15.0,
+P174,Registration,2026-10-01 09:07:00,,Triage
+P174,Triage,2026-10-01 09:14:00,7.0,X-Ray
+P174,X-Ray,2026-10-01 09:24:00,10.0,Doctor Consultation
+P174,Doctor Consultation,2026-10-01 09:42:00,18.0,Discharge
+P174,Discharge,2026-10-01 10:00:00,18.0,
+P175,Registration,2026-10-01 12:06:00,,Triage
+P175,Triage,2026-10-01 12:11:00,5.0,Doctor Consultation
+P175,Doctor Consultation,2026-10-01 12:21:00,10.0,Discharge
+P175,Discharge,2026-10-01 12:45:00,24.0,
+P176,Registration,2026-10-01 09:12:00,,Triage
+P176,Triage,2026-10-01 09:16:00,4.0,Doctor Consultation
+P176,Doctor Consultation,2026-10-01 09:31:00,15.0,Discharge
+P176,Discharge,2026-10-01 09:53:00,22.0,
+P177,Registration,2026-10-01 14:51:00,,Triage
+P177,Triage,2026-10-01 14:58:00,7.0,X-Ray
+P177,X-Ray,2026-10-01 15:08:00,10.0,Triage
+P177,Triage,2026-10-01 15:30:00,22.0,Doctor Consultation
+P177,Doctor Consultation,2026-10-01 15:43:00,13.0,Discharge
+P177,Discharge,2026-10-01 15:56:00,13.0,
+P178,Registration,2026-10-01 11:08:00,,Triage
+P178,Triage,2026-10-01 11:16:00,8.0,X-Ray
+P178,X-Ray,2026-10-01 11:31:00,15.0,Doctor Consultation
+P178,Doctor Consultation,2026-10-01 11:53:00,22.0,Discharge
+P178,Discharge,2026-10-01 12:14:00,21.0,
+P179,Registration,2026-10-01 13:45:00,,Triage
+P179,Triage,2026-10-01 13:49:00,4.0,X-Ray
+P179,X-Ray,2026-10-01 14:01:00,12.0,Doctor Consultation
+P179,Doctor Consultation,2026-10-01 14:21:00,20.0,Discharge
+P179,Discharge,2026-10-01 14:38:00,17.0,
+P180,Registration,2026-10-01 08:32:00,,Triage
+P180,Triage,2026-10-01 08:40:00,8.0,Doctor Consultation
+P180,Doctor Consultation,2026-10-01 08:52:00,12.0,Discharge
+P180,Discharge,2026-10-01 09:11:00,19.0,
+P181,Registration,2026-10-01 11:29:00,,Triage
+P181,Triage,2026-10-01 11:32:00,3.0,X-Ray
+P181,X-Ray,2026-10-01 11:39:00,7.0,Triage
+P181,Triage,2026-10-01 11:50:00,11.0,Doctor Consultation
+P181,Doctor Consultation,2026-10-01 12:02:00,12.0,Discharge
+P181,Discharge,2026-10-01 12:15:00,13.0,
+P182,Registration,2026-10-01 10:00:00,,Triage
+P182,Triage,2026-10-01 10:07:00,7.0,X-Ray
+P182,X-Ray,2026-10-01 10:14:00,7.0,Doctor Consultation
+P182,Doctor Consultation,2026-10-01 10:35:00,21.0,Discharge
+P182,Discharge,2026-10-01 11:02:00,27.0,
+P183,Registration,2026-10-01 13:00:00,,Triage
+P183,Triage,2026-10-01 13:08:00,8.0,Doctor Consultation
+P183,Doctor Consultation,2026-10-01 13:15:00,7.0,Discharge
+P183,Discharge,2026-10-01 13:45:00,30.0,
+P184,Registration,2026-10-01 15:06:00,,Triage
+P184,Triage,2026-10-01 15:12:00,6.0,X-Ray
+P184,X-Ray,2026-10-01 15:26:00,14.0,Triage
+P184,Triage,2026-10-01 15:44:00,18.0,Doctor Consultation
+P184,Doctor Consultation,2026-10-01 15:54:00,10.0,Discharge
+P184,Discharge,2026-10-01 16:10:00,16.0,
+P185,Registration,2026-10-01 11:47:00,,Triage
+P185,Triage,2026-10-01 11:51:00,4.0,X-Ray
+P185,X-Ray,2026-10-01 12:01:00,10.0,Doctor Consultation
+P185,Doctor Consultation,2026-10-01 12:22:00,21.0,Discharge
+P185,Discharge,2026-10-01 12:52:00,30.0,
+P186,Registration,2026-10-01 08:31:00,,Triage
+P186,Triage,2026-10-01 08:37:00,6.0,X-Ray
+P186,X-Ray,2026-10-01 08:46:00,9.0,Doctor Consultation
+P186,Doctor Consultation,2026-10-01 08:59:00,13.0,Discharge
+P186,Discharge,2026-10-01 09:23:00,24.0,
+P187,Registration,2026-10-01 13:39:00,,Triage
+P187,Triage,2026-10-01 13:43:00,4.0,Doctor Consultation
+P187,Doctor Consultation,2026-10-01 13:58:00,15.0,Discharge
+P187,Discharge,2026-10-01 14:08:00,10.0,
+P188,Registration,2026-10-01 14:42:00,,Triage
+P188,Triage,2026-10-01 14:47:00,5.0,Doctor Consultation
+P188,Doctor Consultation,2026-10-01 14:55:00,8.0,Discharge
+P188,Discharge,2026-10-01 15:23:00,28.0,
+P189,Registration,2026-10-01 08:35:00,,Triage
+P189,Triage,2026-10-01 08:42:00,7.0,X-Ray
+P189,X-Ray,2026-10-01 08:50:00,8.0,Triage
+P189,Triage,2026-10-01 09:07:00,17.0,Doctor Consultation
+P189,Doctor Consultation,2026-10-01 09:14:00,7.0,Discharge
+P189,Discharge,2026-10-01 09:43:00,29.0,
+P190,Registration,2026-10-01 10:21:00,,Triage
+P190,Triage,2026-10-01 10:25:00,4.0,X-Ray
+P190,X-Ray,2026-10-01 10:32:00,7.0,Triage
+P190,Triage,2026-10-01 10:47:00,15.0,Doctor Consultation
+P190,Doctor Consultation,2026-10-01 10:52:00,5.0,Discharge
+P190,Discharge,2026-10-01 11:06:00,14.0,
+P191,Registration,2026-10-01 11:03:00,,Triage
+P191,Triage,2026-10-01 11:07:00,4.0,X-Ray
+P191,X-Ray,2026-10-01 11:21:00,14.0,Triage
+P191,Triage,2026-10-01 11:36:00,15.0,Doctor Consultation
+P191,Doctor Consultation,2026-10-01 11:43:00,7.0,Discharge
+P191,Discharge,2026-10-01 12:06:00,23.0,
+P192,Registration,2026-10-01 08:58:00,,Triage
+P192,Triage,2026-10-01 09:06:00,8.0,X-Ray
+P192,X-Ray,2026-10-01 09:12:00,6.0,Doctor Consultation
+P192,Doctor Consultation,2026-10-01 09:33:00,21.0,Discharge
+P192,Discharge,2026-10-01 09:46:00,13.0,
+P193,Registration,2026-10-01 12:17:00,,Triage
+P193,Triage,2026-10-01 12:21:00,4.0,X-Ray
+P193,X-Ray,2026-10-01 12:35:00,14.0,Doctor Consultation
+P193,Doctor Consultation,2026-10-01 12:54:00,19.0,Discharge
+P193,Discharge,2026-10-01 13:04:00,10.0,
+P194,Registration,2026-10-01 12:05:00,,Triage
+P194,Triage,2026-10-01 12:11:00,6.0,Doctor Consultation
+P194,Doctor Consultation,2026-10-01 12:22:00,11.0,Discharge
+P194,Discharge,2026-10-01 12:47:00,25.0,
+P195,Registration,2026-10-01 15:45:00,,Triage
+P195,Triage,2026-10-01 15:51:00,6.0,Doctor Consultation
+P195,Doctor Consultation,2026-10-01 15:57:00,6.0,Discharge
+P195,Discharge,2026-10-01 16:17:00,20.0,
+P196,Registration,2026-10-01 09:15:00,,Triage
+P196,Triage,2026-10-01 09:18:00,3.0,X-Ray
+P196,X-Ray,2026-10-01 09:25:00,7.0,Triage
+P196,Triage,2026-10-01 09:45:00,20.0,Doctor Consultation
+P196,Doctor Consultation,2026-10-01 09:59:00,14.0,Discharge
+P196,Discharge,2026-10-01 10:25:00,26.0,
+P197,Registration,2026-10-01 11:52:00,,Triage
+P197,Triage,2026-10-01 11:59:00,7.0,X-Ray
+P197,X-Ray,2026-10-01 12:13:00,14.0,Doctor Consultation
+P197,Doctor Consultation,2026-10-01 12:26:00,13.0,Discharge
+P197,Discharge,2026-10-01 12:56:00,30.0,
+P198,Registration,2026-10-01 12:42:00,,Triage
+P198,Triage,2026-10-01 12:50:00,8.0,X-Ray
+P198,X-Ray,2026-10-01 12:58:00,8.0,Doctor Consultation
+P198,Doctor Consultation,2026-10-01 13:15:00,17.0,Discharge
+P198,Discharge,2026-10-01 13:39:00,24.0,
+P199,Registration,2026-10-01 11:32:00,,Triage
+P199,Triage,2026-10-01 11:40:00,8.0,X-Ray
+P199,X-Ray,2026-10-01 11:46:00,6.0,Doctor Consultation
+P199,Doctor Consultation,2026-10-01 12:06:00,20.0,Discharge
+P199,Discharge,2026-10-01 12:27:00,21.0,
+P200,Registration,2026-10-01 13:51:00,,Triage
+P200,Triage,2026-10-01 13:57:00,6.0,X-Ray
+P200,X-Ray,2026-10-01 14:03:00,6.0,Triage
+P200,Triage,2026-10-01 14:15:00,12.0,Doctor Consultation
+P200,Doctor Consultation,2026-10-01 14:21:00,6.0,Discharge
+P200,Discharge,2026-10-01 14:42:00,21.0,

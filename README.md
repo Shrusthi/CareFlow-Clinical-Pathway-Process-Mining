@@ -23,13 +23,9 @@ CareFlow is a healthcare process mining project that analyzes hospital event log
  | Description 
 
  `Careflow_Analysis.ipynb` -Notebook for data analysis, patient pathways, and process mining 
- 
  `hospital_event_logs.csv` - Original hospital event log dataset 
- 
  `cleaned_hospital_event_logs.csv`  -Cleaned dataset used for analysis and visualization 
- 
-`CareFlow_Clinical_Pathway_Dashboard.pbix` - Power BI dashboard file 
-
+ `CareFlow_Clinical_Pathway_Dashboard.pbix` - Power BI dashboard file 
  `README.md` - Project documentation 
 
 ## Dataset Description
